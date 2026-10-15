@@ -1,0 +1,4 @@
+interface:
+  display_name: "前端代码审查评分"
+  short_description: "基于证据审查 Web、小程序、桌面端及跨端前端并按 100 分制评分"
+  default_prompt: "使用 $frontend-code-review-score 识别当前项目形态，审查当前前端修改，完成 100 分评分并使用内置模板生成 HTML 报告，完成后仅返回报告绝对路径。"
